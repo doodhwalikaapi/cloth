@@ -1,0 +1,46 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #fafafa; color: #222; }
+
+/* TOP FRAME */
+.top { display: flex; align-items: center; justify-content: space-between;
+       background: linear-gradient(90deg, #1d3557, #457b9d); color: #fff; padding: 10px 30px; height: 95px; }
+.top h1 { margin: 0; font-size: 38px; letter-spacing: 2px; }
+.top p { margin: 2px 0 0; font-size: 14px; color: #dbe9f4; }
+.logo { width: 120px; height: 70px; }
+
+/* LEFT FRAME */
+.left { background: #f1faee; padding: 15px 10px; min-height: 100vh; }
+.left h2 { font-size: 18px; color: #1d3557; border-bottom: 2px solid #457b9d; padding-bottom: 6px; }
+.left ul { padding-left: 22px; list-style: disc; }
+.left ul ul { list-style: circle; margin-top: 4px; }
+.left li { margin: 8px 0; }
+.left a { color: #1d3557; font-weight: 600; text-decoration: underline; }
+.left a:hover { color: #e63946; }
+.left ul ul a { font-weight: 400; }
+
+/* RIGHT FRAME */
+.page { padding: 15px 20px; }
+.page h2 { color: #1d3557; border-left: 6px solid #e63946; padding-left: 10px; }
+.hero { background: #fff; border: 1px solid #ddd; border-radius: 10px; padding: 20px; text-align: center; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
+.card { background: #fff; border: 1px solid #ddd; border-radius: 10px; padding: 14px; box-shadow: 0 2px 6px rgba(0,0,0,.08); }
+.card h3 { margin: 8px 0 4px; color: #1d3557; }
+.card svg { display: block; margin: 0 auto; width: 150px; height: 150px; background: #eef3f7; border-radius: 8px; }
+.price { font-size: 22px; font-weight: bold; color: #e63946; }
+.price s { font-size: 14px; color: #888; font-weight: normal; margin-left: 6px; }
+.row { margin: 6px 0; font-size: 14px; }
+.sw { display: inline-block; width: 24px; height: 24px; border-radius: 50%; border: 2px solid #999; cursor: pointer; margin-right: 4px; vertical-align: middle; }
+.sw:hover { transform: scale(1.2); border-color: #000; }
+.hint { font-size: 12px; color: #777; }
+.stars { color: #f4a100; }
+table.spec { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.spec td { border: 1px solid #ddd; padding: 3px 6px; }
+table.spec td:first-child { background: #f1f5f9; font-weight: 600; width: 38%; }
+
+/* BOTTOM FRAME */
+.bottom { background: #ffe8a3; padding: 6px 15px; height: 120px; }
+.bottom marquee { font-size: 22px; font-weight: bold; color: #b00020; }
+.chips { margin-top: 6px; }
+.chips button { background: #1d3557; color: #fff; border: 0; border-radius: 18px; padding: 6px 12px; margin: 2px; cursor: pointer; font-size: 13px; }
+.chips button:hover { background: #e63946; }
+#msg { margin-top: 5px; font-size: 14px; font-weight: 600; color: #1d3557; }
